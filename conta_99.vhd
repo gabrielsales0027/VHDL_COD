@@ -55,7 +55,7 @@ decod0: decod port map(bcd0, HEX0);
                                  
 decod1: decod port map(bcd1, HEX1);
  
-    process (bcd0, bcd1)                                                                --Alarme=1 se a saída for 60
+    process (bcd0, bcd1)                                                                --ALARME VAI PRA 1, COM SAIDA 60
     begin                                                                                   --
         if bcd1 ="0110" and bcd0="0000" and desliga='0' then                --
             alarme <= '1';                                                              --
