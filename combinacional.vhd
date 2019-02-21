@@ -1,5 +1,5 @@
 --AUTORES: MARCOS MEIRA E JOÃO VICTOR
---MODIFICADO POR: ANDRESSA THEOTÔNIO E CALEBE OLIVEIRA
+--MODIFICADO POR: ALLAN VICTOR ALVES DE LIMA
 --DATA: 10/12/2018
 
 library IEEE;
@@ -24,6 +24,6 @@ begin
 x1<= (not a) and(not b);
 x2<=  (not b) and ( not c);
 x3 <= a and (not c);
-s<= (x1 or x2 or x3);	-- lembrar que se colocarmos a saída s após begin o resultado não altera
-                     	-- porque a arquitetura atua em paralelo
+s<= (x1 or x2 or x3);	-- SAIDA APOS BEGIN NAO ALTERA O RESULTADO
+                     	-- ARQUITETURA ATUA EM PARALELO
 end xupitilha;
