@@ -1,7 +1,7 @@
 -- Registrador Anel 1 byte
 -- Entradas: in_paralelo (std_logic_vector, 8 posições), in_clk (std_logic, entrada do clock)
 -- Saídas: out_clk (std_logic, saída 1 segundo), out_paralelo(std_logic_vector, 8 posições)
--- Modificado por: Calebe Oliveira e Andressa Theotônio
+-- Modificado por: ALLAN VICTOR ALVES DE LIMA
 -- Data: 23/01/2019
  
  
