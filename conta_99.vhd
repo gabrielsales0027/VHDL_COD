@@ -3,7 +3,7 @@
 -- Entradas: clk (clock), sobedesce e reset - Tipo bit
 -- Saidas: HEX0 e HEX1 (displays 7 seg) - Tipo vetor 7 posicoes
 -- Autores: Joao Vitor e Marcos Meira
--- Modificado por: Andressa Theotõnio e Calebe Oliveira
+-- Modificado por: ALLAN VICTOR ALVES DE LIMA
 -- Data: 2/8/2017
  
 library IEEE;                                                        
