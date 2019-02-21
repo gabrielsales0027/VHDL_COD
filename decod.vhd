@@ -2,7 +2,7 @@
 -- Entrada: bcd (vetor de 4 posicoes);
 -- Saida: HEX (vetor de 7 posicoes)
 -- Autores: Joao Vitor e Marcos Meira
--- Modificado por: Calebe Oliveira e Andressa Theotônio
+-- Modificado por: ALLAN VICTOR ALVES DE LIMA
 -- 29/07/2017
  
 library ieee;
